@@ -5,3 +5,9 @@
 @use 'layout/products-section';
 @use 'layout/footer';
 @use 'components/links';
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+

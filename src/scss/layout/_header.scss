@@ -1,2 +1,89 @@
-.page__header {
+.header-menu {
+    width: 100vw;
+    padding-left: 20px;
+    background-color: #d8efff;
+    color: #4a99d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
 }
+
+.logo {
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.menu-hamburger {
+    width: 30px;
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+
+.menu-desktop {
+    font-size: 18px;
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 50px;
+        padding-left: 500px;
+    }
+}
+
+.menu__link {
+    color: #0f001a;
+    text-decoration: none;
+}
+
+.menu__link--home {
+    color:#4a99d3;
+    text-decoration: none;
+}
+
+.main-section {
+    padding: 200px 30px 180px 30px;
+    background: linear-gradient(to bottom, #d8efff, #fff);
+    color: #260041;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        padding: 200px 100px 30px 30px;
+    }
+}
+
+.main-container {
+    h1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+    p {
+        font-size: 20px;
+        line-height: 2;
+    }
+    @media screen and (min-width: 1200px) {
+        margin: 0 100px 0 230px;
+        width: 60%;
+    }
+}
+
+.download-icons {
+    width: 300px;
+    height: 60px;
+    padding-top: 50px;
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 25px;
+    }
+}
+
+.mockup-box {
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        width: 40%;
+    }
+}
+
