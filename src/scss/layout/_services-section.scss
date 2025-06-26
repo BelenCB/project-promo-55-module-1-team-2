@@ -1,0 +1,102 @@
+.section__services {
+    font-family: 'Roboto', 'Roboto Slab', sans-serif;
+}
+
+.how-to-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 13%;
+}
+
+.how-to-help__text {
+    text-align: left;
+    color: #f85e9f;
+    h1 {
+        font-size: 36px;
+    }
+}
+
+.how-to-help__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320.5px;
+    height: 380.8px;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.2);
+    h3 {
+        font-family: 'Roboto Slab', sans-serif;
+        color: #0f001a;
+        font-weight: 500;  
+    }
+    p {
+        font-family: 'Roboto Slab', sans-serif; 
+        color: #0f001a;
+        opacity: 0.6;
+        font-size: 16px;
+    }
+    img {
+        overflow: hidden;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+}
+.how-to-help__card:hover {
+    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.5);
+}
+
+.how-to-help_card-text {
+    text-align: left;
+    padding: 25px;
+}
+
+.learn-more {
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 25px;
+    margin-bottom: 20px;
+    padding-top: 0px
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: #4a99d3;
+}
+
+.learn-more:hover a {
+    color: #f85e9f;
+}
+
+.fa-solid {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .how-to-help {
+        margin: 2% 0;
+    }
+    .how-to-help__text {
+        margin: 7% 0 0 -41%;
+    }
+
+    .fa-solid {
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .card1 {
+        margin: 10% 0 0 -47%;
+    }
+    .card2 { 
+        margin: -40% 0 0 28%;
+    }
+    .card3 {
+        margin: 10% 0 0 28%;
+    }
+
+}
