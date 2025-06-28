@@ -1,2 +1,48 @@
-.page__footer {
+.footer {
+    background-color: #4a99d3;
+    color: #ffffff;
+    padding: 40px 40px 120px 25px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    @media screen and (min-width: 1200px) {
+        padding: 40px 140px 70px 120px;
+        align-items: center;
+    }
+}
+
+.footer-logo {
+    h2 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+.adalab-logo {
+    width: 113px;
+    height: 40px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu {
+    line-height: 3;
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer-link {
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
 }

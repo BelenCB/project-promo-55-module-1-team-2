@@ -1,7 +1,14 @@
 @use 'pages/index';
 @use 'layout/header';
+@use 'layout/main-section';
 @use 'layout/services-section';
 @use 'layout/process-section';
 @use 'layout/products-section';
 @use 'layout/footer';
 @use 'components/links';
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+

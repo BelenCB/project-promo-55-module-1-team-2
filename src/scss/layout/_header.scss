@@ -1,2 +1,45 @@
-.page__header {
+.header {
+    width: 100vw;
+    padding-left: 20px;
+    background-color: #d8efff;
+    color: #4a99d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
 }
+
+.logo {
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.menu-hamburger {
+    width: 30px;
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+
+.menu-desktop {
+    font-size: 18px;
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 50px;
+        padding-left: 500px;
+    }
+}
+
+.menu__link {
+    color: #0f001a;
+    text-decoration: none;
+}
+
+.menu__link--home {
+    color:#4a99d3;
+    text-decoration: none;
+}
+
