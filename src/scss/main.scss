@@ -1,11 +1,16 @@
 @use 'pages/index';
+@use 'pages/contact';
+@use 'pages/about-us';
 @use 'layout/header';
 @use 'layout/main-section';
 @use 'layout/services-section';
 @use 'layout/process-section';
 @use 'layout/products-section';
 @use 'layout/footer';
-@use 'components/links';
+@use 'layout/belen';
+@use 'layout/alba';
+@use 'layout/michelle';
+@use 'layout/ele';
 
 body {
     margin: 0;
