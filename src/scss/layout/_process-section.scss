@@ -1,5 +1,4 @@
 .process-section {
-    max-width: 400px;
     margin: 0 auto;
     background-color: #e8eef7;
     padding: 60px 40px;
@@ -28,6 +27,7 @@
     font-size: 48px;
     margin-bottom: 20px;
     display: block;
+    color: #d3844a;
 }
 
 .process-step h3 {
@@ -42,7 +42,6 @@
 
 @media (min-width:1200px) {
     .process-section {
-        max-width: 1200px;
         padding: 80px 60px;
         display: flex;
         flex-direction: column;
