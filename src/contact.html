@@ -15,10 +15,29 @@
 
   <body>
     <div class="page">
-      <load src="./partials/header.html" />
-      <main>
-        
-      </main>
+      <load src="./partials/header.html" title="" />
+      <section class="section__contact">
+        <div class="contact__card">
+          <h3>Contáctanos</h3>
+          
+          <div class="contact__content">
+            <div class="form-wrapped">
+              <h4>Envíanos un mensaje</h4>
+              <form method="post" action="/">
+                <label class="form-label" for="userName">Nombre</label>
+                <input type="text" class="field" name="userName">
+                <input type="text" class="field" name="emailAddress" placeholder="Correo">
+                <textarea name="yourMessage" class="field" placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+            <div class="img-card">
+              <img src="/images/contact-map.png" alt="Mapa" class="map">
+            </div>
+          </div>
+
+        </div>
+      </section>
       <load src="./partials/footer.html" />
     </div>
     <script src="./js/main.js"></script>
