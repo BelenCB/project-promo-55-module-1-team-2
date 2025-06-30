@@ -1,0 +1,39 @@
+.about-ele {
+    background: linear-gradient(to bottom, #d8efff, #fff);
+    padding-top: 160px;
+    padding-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+    display: flex; 
+    }
+}
+
+.text-box {
+    padding: 0 60px 50px 30px;
+    @media screen and (min-width: 1200px) {
+        order: 1;
+    }
+
+    h2 {
+        font-size: 36px;
+        color:#F85E9F;
+    }
+
+    p {
+        font-size: 20px;
+        color: #260041;
+    }
+}
+
+.image-box {
+    text-align: center;
+     @media screen and (min-width: 1200px) {
+        padding: 0 50px 0 50px;
+        order: 2;
+    }
+}
+
+.image-box img {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+}
