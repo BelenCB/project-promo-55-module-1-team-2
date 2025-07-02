@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/main-deda8ec1.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+    <div class="logo">
+        <h2>AdaShop</h2>
+    </div>
+    <div class="menu-hamburger">
+        <img src= "./images/menu-hamburger.svg" alt="icono de menú" >
+    </div>
+    <div class="menu-desktop">
+        <a class="menu__link--home" href="index.html">Home</a>
+        <a class="menu__link" href="about-us.html">Nosotros</a>
+        <a class="menu__link" href="contact.html">Contáctanos</a>
+    </div>
+</header>
+      <section class="section__contact">
+        <div class="contact__card">
+          <h3>Contáctanos</h3>
+          
+          <div class="contact__content">
+            <div class="form-wrapped">
+              <h4>Envíanos un mensaje</h4>
+              <form method="post" action="https://formspree.io/f/xgvydzql">
+                <label class="form-label" for="userName">Nombre</label>
+                <input type="text" class="field" name="userName">
+                <input type="email" class="field" name="emailAddress" placeholder="Correo">
+                <textarea name="yourMessage" class="field" placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+            <div class="img-card">
+              <img src="./images/contact-map.png" alt="Mapa" class="map">
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <footer class="footer">
+    <div class="footer-logo">
+        <h2>AdaShop</h2>
+        <img class="adalab-logo" src="./images/logo-adalab.png" alt="logo de Adalab" >
+        <p>AdaShop ©2025, todos los derechos reservados</p>
+    </div>
+    <div class="social-icons">
+        <img src= "./images/facebook.png" alt="icono de Facebook" >
+        <img src= "./images/twitter.png" alt="icono de Twitter" >
+        <img src= "./images/instagram.png" alt="icono de Instagram" >
+        <img src= "./images/linked-in.png" alt="icono de Linkedin" >
+    </div>
+    <div class="footer-menu">
+        <a class="footer-link" href="index.html">Inicio</a>
+        <a class="footer-link" href="about-us.html">Nosotros</a>
+        <a class="footer-link" href="contact.html">Contacto</a>
+    </div>
+</footer>
+
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
